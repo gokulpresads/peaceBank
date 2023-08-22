@@ -1,0 +1,48 @@
+/* accountStatement.module.css */
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    margin-bottom: 0%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statementTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dateSelector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dateInput {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    align-self: center;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+  }
+  

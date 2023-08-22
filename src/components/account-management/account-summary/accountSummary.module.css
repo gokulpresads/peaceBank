@@ -1,0 +1,51 @@
+/* accountSummary.module.css */
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    margin-bottom: 0%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summaryTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .accountInfo {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .recentTransactions {
+    margin-top: 20px;
+  }
+  
+  .transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactionTable th,
+  .transactionTable td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .transactionTable th {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(30px);
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .transactionRow {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+  }
+  
