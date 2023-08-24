@@ -4,6 +4,7 @@ import OpenSavingsAccountForm from './components/user-management/new-account/new
 import ChangePasswordPage from './components/user-management/change-password/changePassword';
 import AccountSummary from './components/account-management/account-summary/accountSummary';
 import AccountStatement from './components/account-management/account-statement/accountStatement';
+import AdminDashboard from './admin-dashboard/adminPage';
 import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -84,6 +85,15 @@ const App = () => {
                     Account Statement
                   </NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link"
+                    to="/admin-dash"
+                    activeClassName="active"
+                  >
+                    Admin Dashboard
+                  </NavLink>
+                </li>
               </ul>
             </div>
           </div>
@@ -100,7 +110,7 @@ const App = () => {
                                                     recentTransactions={recentTransactions}
                                                   />} />
           <Route path="/account-statement" element={<AccountStatement />} />
-          
+          <Route path="/admin-dash" element={<AdminDashboard />} />
         </Routes>
       </div>
     </Router>

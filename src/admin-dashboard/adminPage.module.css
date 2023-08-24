@@ -1,0 +1,85 @@
+/* adminPage.module.css */
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    margin-bottom: 0%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .dashboardTitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.1s;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(30px);
+  }
+  
+  .tabButton:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .activeTab {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .approvedCustomersTitle,
+  .pendingRequestsTitle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* New styles for logo and additional styling changes */
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .requestList,
+  .customerList {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(30px);    
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .requestItem,
+  .customerItem {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .requestItem:hover,
+  .customerItem:hover {
+    background-color: #f5f5f5;
+  }
+  
