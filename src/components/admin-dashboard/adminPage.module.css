@@ -62,7 +62,7 @@
   .requestList,
   .customerList {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(30px);    
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -70,11 +70,11 @@
   
   .requestItem,
   .customerItem {
-    border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);        
     transition: background-color 0.3s;
   }
   
@@ -83,3 +83,34 @@
     background-color: #f5f5f5;
   }
   
+  .transactionForm {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);    
+  }
+  
+  .transactionButton {
+    margin-left: 10px;
+  }
+
+  .requestInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .requestInfoText {
+    flex: 1;
+  }
+  
+  .approveButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .statusBadge {
+    color: white;
+  }
